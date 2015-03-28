@@ -13,7 +13,8 @@ chai.use(
   )
 );
 
-...
+var assert = chai.assert;
+var expect = chai.expect;
 
 assert.equalCollection([ 1, { foo: 'bar' }, 'foo' ], [ 1, { foo: 'bar' }, 'foo' ]);
 expect([ 1, { foo: 'bar' }, 'foo' ]).to.be.equalCollection([ 1, { foo: 'bar' }, 'foo' ]);
