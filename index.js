@@ -1,4 +1,4 @@
-var compareCollections = require('lib/compare-collections');
+var compareCollections = require('./lib/compare-collections');
 
 module.exports = function(cmp) {
     return function(chai, utils) {
