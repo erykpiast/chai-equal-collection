@@ -1,8 +1,9 @@
-# chai-equal-collection
+chai-equal-collection
+=====================
 
 Chai plugin for comparing collections.
 
-# Usage #
+## Usage
 ```
 var chai = require('chai');
 
