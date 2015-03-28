@@ -1,0 +1,25 @@
+{
+  "name": "chai-equal-collection",
+  "version": "0.0.1",
+  "description": "Chai plugin for comparing collections",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erykpiast/chai-equal-collection.git"
+  },
+  "keywords": [
+    "chai",
+    "collection",
+    "equal",
+    "equality"
+  ],
+  "author": "Eryk Napierała <eryk.piast@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erykpiast/chai-equal-collection/issues"
+  },
+  "homepage": "https://github.com/erykpiast/chai-equal-collection",
+  "dependencies": {
+    "deep-eql": "~0.1"
+  }
+}
