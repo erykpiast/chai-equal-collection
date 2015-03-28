@@ -24,5 +24,9 @@ module.exports = function(cmp) {
         utils.addMethod(chai.assert, 'equalCollection', function(actual, expected, msg) {
             new chai.Assertion(actual).to.be.equalCollection(expected, msg);
         });
+        
+        utils.addMethod(chai.assert, 'notEqualCollection', function(actual, expected, msg) {
+            new chai.Assertion(actual).not.to.be.equalCollection(expected, msg);
+        });
     };
 };
